@@ -1,0 +1,18 @@
+{
+    "name": "logistics-system",
+    "version": "1.0.0",
+    "description": "期末大作业智慧物流管理系统后端",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev-server": "nodemon server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "mssql": "^10.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.11"
+    }
+}

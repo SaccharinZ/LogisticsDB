@@ -1,0 +1,20 @@
+{
+  "name": "logistics-frontend",
+  "version": "1.0.0",
+  "description": "期末大作业智慧物流管理系统前端",
+  "scripts": {
+    "dev-web": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
+    "element-plus": "^2.4.0",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.0"
+  }
+}
