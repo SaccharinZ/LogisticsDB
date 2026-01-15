@@ -6,7 +6,7 @@
         <div class="card">
             <h2>创建新运单</h2>
             <div class="form-container">
-                <el-form :model="orderForm" :rules="orderRules" ref="orderFormRef" label-width="120px">
+                <el-form :model="orderForm" :rules="orderRules" ref="orderFormRef" label-width="130px">
                     <el-form-item label="运单号" prop="orderId">
                         <el-input v-model="orderForm.orderId" placeholder="请输入运单号，如：ORD202512001" />
                     </el-form-item>

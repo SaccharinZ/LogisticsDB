@@ -6,7 +6,7 @@
         <div class="card">
             <h2>录入车辆信息</h2>
             <div class="form-container">
-                <el-form :model="vehicleForm" :rules="vehicleRules" ref="vehicleFormRef" label-width="120px">
+                <el-form :model="vehicleForm" :rules="vehicleRules" ref="vehicleFormRef" label-width="130px">
                     <el-form-item label="车牌号码" prop="licensePlate">
                         <el-input v-model="vehicleForm.licensePlate" placeholder="请输入车牌号，如：沪A12345" />
                     </el-form-item>
